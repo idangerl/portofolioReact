@@ -137,7 +137,7 @@ export const cv = [
     subtitle: "Fundamentos een HTML, CSS y Javascript",
     date: "2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Certificacion en Acadamenlo donde adquirí conocimientos en los fundamentos de desarrollo web, incluyendo HTML, CSS y Javascript, lo que me permitió comprender el proceso de creación y diseño de sitios web.",
     category: "education",
   },
 
@@ -147,7 +147,7 @@ export const cv = [
     subtitle: "Frontend con React",
     date: "2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Certificacion en Acadamenlo sobre React, donde aprendí a desarrollar aplicaciones web utilizando esta tecnología de vanguardia. Durante el curso, adquirí habilidades en la creación de componentes, manejo de estado y uso de librerías para mejorar la experiencia del usuario.",
     category: "education",
   },
 
@@ -157,7 +157,7 @@ export const cv = [
     subtitle: "Backend con NodeJS",
     date: "2023",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Certificacion en Acadamenlo sobre Node.js con Express, donde aprendí a desarrollar aplicaciones web en el lado del servidor. Durante el curso, adquirí habilidades en la creación de API RESTful, manejo de bases de datos, autenticación y autorización de usuarios, y manejo de errores.",
     category: "education",
   },
 
@@ -167,7 +167,7 @@ export const cv = [
     subtitle: "Desarrollo con JS",
     date: "2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Certificación en JavaScript otorgada por Open Bootcamp, que demuestra mi conocimiento y habilidades en el lenguaje de programación. Durante la certificación, adquirí habilidades en el uso de estructuras de datos y algoritmos, programación orientada a objetos y manipulación del DOM.",
     category: "experience",
   },
 
@@ -177,7 +177,7 @@ export const cv = [
     subtitle: "HTML y CSS",
     date: "2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Certificación en Diseño Web con HTML y CSS otorgada por Open Bootcamp, que demuestra mi conocimiento y habilidades en la creación de sitios web estáticos y dinámicos. Durante la certificación, adquirí habilidades en el uso de etiquetas HTML, estilos CSS, diseño responsivo, accesibilidad, y buenas prácticas de diseño web.",
     category: "experience",
   },
 
@@ -187,7 +187,7 @@ export const cv = [
     subtitle: "programacion con Javascript",
     date: "2023",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Completé con éxito un curso en JavaScript ofrecido por FreeCodeCamp, donde adquirí conocimientos fundamentales en el lenguaje de programación y sus aplicaciones prácticas en el desarrollo web. Durante el curso, me familiaricé con estructuras de datos y algoritmos, programación orientada a objetos, manipulación del DOM, y desarrollo de aplicaciones web utilizando herramientas populares como Node.js y React.",
     category: "experience",
   },
 ];
