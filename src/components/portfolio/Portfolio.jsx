@@ -35,7 +35,6 @@ function Portfolio() {
       <p className="section-subtitle">
         Mis<span>Proyectos</span>
       </p>
-      <List list={navList} filterItems={filterItems} />
       <div className="portfolio-container container grid">
         <AnimatePresence initial={false}>
           <Items projectItems={projectItems} />

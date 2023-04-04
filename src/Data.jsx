@@ -1,5 +1,5 @@
-import Project1 from "./assets/project1.jpeg";
-import Project2 from "./assets/project2.jpg";
+import Project1 from "./assets/project1.png";
+import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.jpeg";
 import Project4 from "./assets/project4.jpeg";
 import Project5 from "./assets/project5.jpg";
@@ -84,17 +84,21 @@ export const projects = [
     id: 1,
     img: Project1,
     category: "categoria 1",
-    title: "Proyecto 1",
+    title: "streaming App interface",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "Interfaz de streaming desarrollado en React con diseño intuitivo, navegación fluida y diseño responsivo.",
+    GIT_URL: "https://github.com/idangerl/streaming-app-with-react",
+    PAGE_URL: "https://app-streaming-oscar.netlify.app",
   },
   {
     id: 2,
     img: Project2,
     category: "categoria 2",
-    title: "Proyecto 2",
+    title: "Weather App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "aplicacion de clima desarrollado con react y css nativo, usando consumo de apis de clima y ciudades",
+    GIT_URL: "https://github.com/idangerl/weatherApp-react",
+    PAGE_URL: "https://weather-app-oscar.netlify.app",
   },
   {
     id: 3,
@@ -103,6 +107,8 @@ export const projects = [
     title: "Proyecto 3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    GIT_URL: "",
+    PAGE_URL: "",
   },
   {
     id: 4,
@@ -111,6 +117,8 @@ export const projects = [
     title: "Proyecto 4",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    GIT_URL: "",
+    PAGE_URL: "",
   },
   {
     id: 5,
@@ -119,6 +127,8 @@ export const projects = [
     title: "Proyecto 5",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    GIT_URL: "",
+    PAGE_URL: "",
   },
   {
     id: 6,
@@ -127,44 +137,46 @@ export const projects = [
     title: "Proyecto 6",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    GIT_URL: "",
+    PAGE_URL: "",
   },
 ];
 
 export const cv = [
   {
     id: 1,
-    title: "Academlo fundamentos desarrollo web",
-    subtitle: "Fundamentos een HTML, CSS y Javascript",
+    title: "Desarrollo web Fullstack MERN STACK",
+    subtitle: "institucion: ACADEMLO",
     date: "2022",
     description:
-      "Certificacion en Acadamenlo donde adquirí conocimientos en los fundamentos de desarrollo web, incluyendo HTML, CSS y Javascript, lo que me permitió comprender el proceso de creación y diseño de sitios web.",
+      "Certificacion en Acadamenlo donde adquirí conocimientos en los fundamentos de desarrollo web, a crear interfaces con React y desarrolar bases de datos y backend con nodejs",
     category: "education",
   },
 
   {
     id: 2,
-    title: "Academlo Desarrollo Frontend",
-    subtitle: "Frontend con React",
+    title: "Herramientas de Edición y Diseño de Adobe",
+    subtitle: "certificacion de Adobe inc",
     date: "2022",
     description:
-      "Certificacion en Acadamenlo sobre React, donde aprendí a desarrollar aplicaciones web utilizando esta tecnología de vanguardia. Durante el curso, adquirí habilidades en la creación de componentes, manejo de estado y uso de librerías para mejorar la experiencia del usuario.",
+      "Certificación de Adobe en Photoshop, Illustrator, InDesign y Lightroom, avalando habilidades profesionales en edición gráfica y diseño editorial.",
     category: "education",
   },
 
   {
     id: 3,
-    title: "Academlo Desarrollo Backend",
-    subtitle: "Backend con NodeJS",
+    title: "Herramientas de marketing y publicidad",
+    subtitle: "institucion: Facultad Nacional de Ingenieria",
     date: "2023",
     description:
-      "Certificacion en Acadamenlo sobre Node.js con Express, donde aprendí a desarrollar aplicaciones web en el lado del servidor. Durante el curso, adquirí habilidades en la creación de API RESTful, manejo de bases de datos, autenticación y autorización de usuarios, y manejo de errores.",
+      "certificación de la Facultad Nacional de Ingeniería de Oruro avala habilidades y conocimientos en el uso de herramientas de Adobe, demostrando el dominio de técnicas avanzadas en diseño y edición gráfica para la creación de proyectos innovadores.",
     category: "education",
   },
 
   {
     id: 4,
-    title: "Open Bootcamp JS",
-    subtitle: "Desarrollo con JS",
+    title: "Desarrollo con JS",
+    subtitle: "institucion: Open Bootcamp",
     date: "2022",
     description:
       "Certificación en JavaScript otorgada por Open Bootcamp, que demuestra mi conocimiento y habilidades en el lenguaje de programación. Durante la certificación, adquirí habilidades en el uso de estructuras de datos y algoritmos, programación orientada a objetos y manipulación del DOM.",
@@ -173,8 +185,8 @@ export const cv = [
 
   {
     id: 5,
-    title: "Open Bootcamp Diseño web",
-    subtitle: "HTML y CSS",
+    title: "Diseño web con HTML y CSS",
+    subtitle: "institucion: Open Bootcamp",
     date: "2022",
     description:
       "Certificación en Diseño Web con HTML y CSS otorgada por Open Bootcamp, que demuestra mi conocimiento y habilidades en la creación de sitios web estáticos y dinámicos. Durante la certificación, adquirí habilidades en el uso de etiquetas HTML, estilos CSS, diseño responsivo, accesibilidad, y buenas prácticas de diseño web.",
@@ -183,8 +195,8 @@ export const cv = [
 
   {
     id: 6,
-    title: "Free Code Camp JS",
-    subtitle: "programacion con Javascript",
+    title: "programacion con Javascript",
+    subtitle: "institucion: Free code camp",
     date: "2023",
     description:
       "Completé con éxito un curso en JavaScript ofrecido por FreeCodeCamp, donde adquirí conocimientos fundamentales en el lenguaje de programación y sus aplicaciones prácticas en el desarrollo web. Durante el curso, me familiaricé con estructuras de datos y algoritmos, programación orientada a objetos, manipulación del DOM, y desarrollo de aplicaciones web utilizando herramientas populares como Node.js y React.",

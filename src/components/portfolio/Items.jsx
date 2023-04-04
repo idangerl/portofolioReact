@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
 import shapeTwo from "../../assets/shape-2.png";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
@@ -9,7 +8,7 @@ function Items({ projectItems }) {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, category, title, description } = projectItem;
+        const { id, img, title, description, GIT_URL, PAGE_URL} = projectItem;
         return (
           <motion.div
             layout
@@ -23,14 +22,23 @@ function Items({ projectItems }) {
             <div className="portfolio-img-wrapper">
               <img src={img} alt={title} className="portfolio-img" />
             </div>
-            <span className="portfolio-category text-cs">{category}</span>
             <h3 className="portfolio-title">{title}</h3>
             <p className="portfolio-description">{description}</p>
             <p className="home-socials">
-              <a href="" className="home-social-link">
+              <a
+                href={GIT_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="home-social-link"
+              >
                 <FaGithub />
               </a>
-              <a href="" className="home-social-link">
+              <a
+                href={PAGE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="home-social-link"
+              >
                 <SiNetlify />
               </a>
             </p>
