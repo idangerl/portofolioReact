@@ -157,7 +157,7 @@ export const cv = [
     id: 2,
     title: "Herramientas de Edición y Diseño de Adobe",
     subtitle: "certificacion de Adobe inc",
-    date: "2022",
+    date: "2021",
     description:
       "Certificación de Adobe en Photoshop, Illustrator, InDesign y Lightroom, avalando habilidades profesionales en edición gráfica y diseño editorial.",
     category: "education",
@@ -167,7 +167,7 @@ export const cv = [
     id: 3,
     title: "Herramientas de marketing y publicidad",
     subtitle: "institucion: Facultad Nacional de Ingenieria",
-    date: "2023",
+    date: "2021",
     description:
       "certificación de la Facultad Nacional de Ingeniería de Oruro avala habilidades y conocimientos en el uso de herramientas de Adobe, demostrando el dominio de técnicas avanzadas en diseño y edición gráfica para la creación de proyectos innovadores.",
     category: "education",
