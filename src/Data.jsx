@@ -1,6 +1,6 @@
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
-import Project3 from "./assets/project3.jpeg";
+import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.jpeg";
 import Project5 from "./assets/project5.jpg";
 import Project6 from "./assets/project6.jpg";
@@ -104,11 +104,11 @@ export const projects = [
     id: 3,
     img: Project3,
     category: "categoria 3",
-    title: "Proyecto 3",
+    title: "News App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-    GIT_URL: "",
-    PAGE_URL: "",
+      "aplicacion de noticias responsive desarrollado con react y tailwind css, usando consumo de api",
+    GIT_URL: "https://github.com/idangerl/newsapp",
+    PAGE_URL: "https://news-app-oscar.netlify.app",
   },
   {
     id: 4,
