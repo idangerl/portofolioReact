@@ -1,7 +1,7 @@
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
-import Project4 from "./assets/project4.jpeg";
+import Project4 from "./assets/project4.png";
 import Project5 from "./assets/project5.jpg";
 import Project6 from "./assets/project6.jpg";
 
@@ -114,11 +114,11 @@ export const projects = [
     id: 4,
     img: Project4,
     category: "categoria 4",
-    title: "Proyecto 4",
+    title: "Travel App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-    GIT_URL: "",
-    PAGE_URL: "",
+      "interfaz para una aplicacion de guia turistica en la Ciudad de La Paz Bolivia usando React y Tailwind css",
+    GIT_URL: "https://github.com/idangerl/TravelApp",
+    PAGE_URL: "https://travel-app-oscar.netlify.app",
   },
   {
     id: 5,
