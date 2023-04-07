@@ -2,8 +2,7 @@ import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.png";
-import Project5 from "./assets/project5.jpg";
-import Project6 from "./assets/project6.jpg";
+import Project5 from "./assets/project5.png";
 
 export const links = [
   {
@@ -124,21 +123,11 @@ export const projects = [
     id: 5,
     img: Project5,
     category: "categoria 3",
-    title: "Proyecto 5",
+    title: "Ethereum App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-    GIT_URL: "",
-    PAGE_URL: "",
-  },
-  {
-    id: 6,
-    img: Project6,
-    category: "categoria 1",
-    title: "Proyecto 6",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-    GIT_URL: "",
-    PAGE_URL: "",
+      "Interfaz grafica atractiva y responsiva para una app de criptomonedas desarrollada con React y tailwind css",
+    GIT_URL: "https://github.com/idangerl/EthereumApp",
+    PAGE_URL: "https://ethereumapp-oscar.netlify.app",
   },
 ];
 
