@@ -42,17 +42,6 @@ function Skills() {
           return (
             <SwiperSlide className="skills-item card card-one" key={id}>
               <h3 className="skills-title">{name}</h3>
-              <div className="skills-subtitle">
-                {percentage} <span>%</span>
-                <div className="skills-bar">
-                  <span
-                    className="skills-percentage"
-                    style={{ width: `${percentage}%` }}
-                  >
-                    <span></span>
-                  </span>
-                </div>
-              </div>
 
               <p className="skills-description">{description}</p>
               <img src={shapeTwo} alt="shape 2" className="shape c-shape" />

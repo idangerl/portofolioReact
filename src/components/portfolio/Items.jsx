@@ -8,7 +8,7 @@ function Items({ projectItems }) {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, title, description, GIT_URL, PAGE_URL} = projectItem;
+        const { id, img, title, description, GIT_URL, PAGE_URL } = projectItem;
         return (
           <motion.div
             layout
@@ -20,7 +20,9 @@ function Items({ projectItems }) {
             key={id}
           >
             <div className="portfolio-img-wrapper">
-              <img src={img} alt={title} className="portfolio-img" />
+              <a href={PAGE_URL} target="_blank" rel="noopener noreferrer">
+                <img src={img} alt={title} className="portfolio-img" />
+              </a>
             </div>
             <h3 className="portfolio-title">{title}</h3>
             <p className="portfolio-description">{description}</p>

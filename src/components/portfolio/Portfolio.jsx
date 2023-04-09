@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../../stylesheets/Portfolio.css";
-import List from "./List";
 import Items from "./Items";
 import { projects } from "../../Data";
 import { AnimatePresence } from "framer-motion";
