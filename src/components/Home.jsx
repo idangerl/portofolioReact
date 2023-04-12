@@ -4,7 +4,7 @@ import shapeOne from "../assets/shape-1.png";
 import shapeTwo from "../assets/shape-2.png";
 import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 import "../stylesheets/Home.css";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/CvOscarDanielAcho.pdf";
 
 function Home() {
   return (
