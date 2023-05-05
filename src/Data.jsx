@@ -76,6 +76,12 @@ export const skills = [
     description:
       "un entorno de ejecución de JavaScript del lado del servidor utilizado para construir aplicaciones escalables y de alta velocidad.",
   },
+  {
+    id:6,
+    name:'Express',
+    percentage: 70,
+    description:' framework de Node.js para crear aplicaciones web y APIs de forma rápida y sencilla. Ofrece un enfoque minimalista y flexible para el desarrollo de servidores HTTP.'
+  }
 ];
 
 export const projects = [
@@ -134,7 +140,7 @@ export const projects = [
 export const cv = [
   {
     id: 1,
-    title: "Desarrollo web Fullstack MERN STACK",
+    title: "Desarrollo web Fullstack",
     subtitle: "institucion: ACADEMLO",
     date: "2022",
     description:
