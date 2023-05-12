@@ -42,7 +42,7 @@ function Home() {
           </p>
           <div className="home-socials">
             <a
-              href="https://www.linkedin.com/in/oscar-daniel-acho-chambi-794574223/"
+              href="https://www.linkedin.com/in/oscar-daniel-acho"
               target="_blank"
               rel="noopener noreferrer"
               className="home-social-link"
