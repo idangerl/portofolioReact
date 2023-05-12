@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-container container grid">
         <div className="footer-socials">
           <a
-            href="https://www.linkedin.com/in/oscar-daniel-acho-chambi-794574223/"
+            href="https://www.linkedin.com/in/oscar-daniel-acho"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-social-link"
